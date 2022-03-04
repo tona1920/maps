@@ -1,0 +1,57 @@
+
+    body{
+      background: #bdc3c7;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .login {
+      width: 400px;
+      background: none;
+      box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+      margin: 100px auto;
+    }
+    .login h1 {
+      text-align: center;
+      color: #ffffff;
+      font-size: 24px;
+      padding: 20px 0 20px 0;
+      border-bottom: 1px solid #dee0e4;
+    }
+    .login form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 20px;
+    }
+    .login form label {
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background-color: #3274d6;
+      color: #ffffff;
+    }
+    .login ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: white;
+      opacity: 1; /* Firefox */
+    }
+    .login form input[type="password"], .login form input[type="email"], .login form input[type="username"], .login form input[type="date"] {
+      width: 310px;
+      height: 50px;
+      background: none;
+      border: 1px solid #dee0e4;
+      border-radius: 10px;
+      margin-left: 5px;
+      margin-bottom: 20px;
+      padding: 0 15px;
+    }
+    .login form button{
+      width: 100%;
+      padding: 15px;
+      margin-top: 20px;
+      border: 0;
+      cursor: pointer;
+      font-weight: bold;
+    }
